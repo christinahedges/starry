@@ -439,7 +439,7 @@ class YlmBase(object):
         obl = kwargs.pop("obl", None)
         theta = kwargs.pop("theta", 0.0)
         xo = kwargs.pop("xo", kwargs.pop("x", 0.0)) # Lenient! Can provide `x`
-        yo = kwargs.pop("yo", kwargs.pop("y", 0.0)) # Lenient! Can provide `y`
+        yo = kwargs.pop("yo", 0.0)
         zo = kwargs.pop("zo", kwargs.pop("z", 1.0)) # Lenient! Can provide `z`
         ro = kwargs.pop("ro", kwargs.pop("r", 0.0)) # Lenient! Can provide `r`
         orbit = kwargs.pop("orbit", None)
